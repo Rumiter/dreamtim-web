@@ -1,0 +1,56 @@
+html, body {
+    background: darkgray;
+    min-height: 100vh;
+}
+
+table {
+    background: white;
+    width: 80%;
+    height: 80%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+td {
+    border: 1px solid gray;
+}
+
+img {
+    border-radius: 4px;
+    width: 300px;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:10px;
+    border: solid 4px white;
+    padding: 12px 24px;
+}
+
+.heading, .content {
+    color: black;
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.content {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
+}
